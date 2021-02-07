@@ -17,9 +17,7 @@ for i in numbers:
     #print(i)
     for j in numbers:
         if i+j == 2020:
-            print(i)
-            print(j)
-            print(i*j)
+            print(str(i)+"*"+str(j)+"="+str(i*j))
  
 #prints answer twice, once with the first number as i, once with the first number as j
 #answer is: 1926*94, or 181044
