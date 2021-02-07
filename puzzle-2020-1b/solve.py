@@ -14,10 +14,10 @@ for i in range(n):
 #print(numbers[0]+numbers[199])
 
 for i in numbers:
-    #print(i)
     for j in numbers:
-        if i+j == 2020:
-            print(str(i)+"*"+str(j)+"="+str(i*j))
+        for k in numbers:
+            if i+j+k == 2020:
+                print(str(i)+"*"+str(j)+"*"+str(k)+"="+str(i*j*k))
  
-#prints answer twice, once with the first number as i, once with the first number as j
-#answer is: 1926*94, or 181044
+#prints answer multiple times
+#answer is: 907*1024*89=82660352 
